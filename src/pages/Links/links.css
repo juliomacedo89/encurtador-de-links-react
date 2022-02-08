@@ -14,14 +14,23 @@
 
 .links-header h1{
     color: #fff;
+    
+}
+
+.wrapper{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 30px;
+    margin-top: 20px;
 }
 
 .links-item{
-    width: 700px;
+    width: 600px;
     display: flex;
     align-items: center;
     flex-direction: row;
     margin-top: 8px;
+
 }
 
 .links-item:last-child{
@@ -56,6 +65,14 @@
     border: 0;
 }
 
+.empty-text{
+    width: 100%;
+    text-align: center;
+   
+    color: #fff;
+
+}
+
 @media(max-width: 715px) {
     .link-container{
         width: 90%;
@@ -68,6 +85,9 @@
     }
     .link{
         max-width: 400px;
-        
+    }
+    .wrapper{
+        width: 95%;
+        margin: 20px auto;
     }
 }
