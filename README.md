@@ -5,7 +5,7 @@
 🚀  Tecnologias utilizadas:
     React Js.
 
-Este projeto foi desenvolvido objetivando encurtar links usando a API do Bit.ly.
+💬 Este projeto foi desenvolvido objetivando encurtar links usando a API do Bit.ly.
 
 
 
